@@ -3,10 +3,9 @@ from services.requester import Requester
 
 
 class DataUpdater:
-    def __init__(self, base_url, prefix, headers=None):
+    def __init__(self, base_url, prefix):
         self.prefix = prefix
         self.requester = Requester(base_url + prefix)
-        self.headers = headers or {}
 
     def post(self, data_list):
         try:
