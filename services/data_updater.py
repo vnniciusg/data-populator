@@ -11,7 +11,6 @@ class DataUpdater:
         try:
             for data in data_list:
                 response = self.requester.make_request("POST", data=data)
-                print("Status Code:", response.status_code)
                 print("Resposta:", response)
                 print("\n")
         except requests.exceptions.RequestException as e:

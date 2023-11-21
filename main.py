@@ -20,7 +20,7 @@ class Main:
         for data in data_list:
             prefix = data["prefix"]
             data_updater = DataUpdater(self.base_url, prefix)
-            data_updater.post([data])
+            data_updater.post(data["data"])
 
 
 if __name__ == "__main__":

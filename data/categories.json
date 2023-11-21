@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Artesanais",
+        "visible": true
+    },
+    {
+        "name": "Especiais",
+        "visible": true
+    },
+    {
+        "name": "Hamburguer",
+        "visible": true
+    },
+    {
+        "name": "Frango",
+        "visible": true
+    },
+    {
+        "name": "Cachorro Quente",
+        "visible": true
+    },
+    {
+        "name": "Entradas",
+        "visible": true
+    },
+    {
+        "name": "Massas",
+        "visible": true
+    },
+    {
+        "name": "Outras Bebidas",
+        "visible": true
+    },
+    {
+        "name": "Refrigerante 1l",
+        "visible": true
+    }
+]
